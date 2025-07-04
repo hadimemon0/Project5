@@ -1,0 +1,70 @@
+body{
+    height: 2000px;
+}
+h1{
+    background-color: brown;
+}
+/* Position */
+
+.container{
+    border: 20px solid red;
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;
+}
+/* relative-position */
+.container div{
+    border: 5px solid green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /* float: inline-start; */
+    /* position: static; -- default value/property */
+    
+}
+.box1{
+    /* position: relative; */
+    position: relative;
+    top: 120px;
+    left: 220px;
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+/* 2) Absolute */
+.box2{
+    background-color: aqua;
+    position: relative;
+    /* position: absolute; */
+    top: 60px;
+    left: 120px;
+    z-index: 2;
+}
+
+/* 3) Fixed */
+
+.box3{
+    background-color: rosybrown;
+    position: relative;
+    /* position: fixed; */
+    top: 20px;
+    left: 100px;
+    z-index: 4;
+}
+
+.box4{
+    background-color: lawngreen;
+    position: relative;
+    /* position: sticky; */
+    top: 90px;
+    left: -40px;
+    z-index: 3;
+}
+
+
+
+
+/* Display Properties */
+/* .box1{
+    display: ;
+} */
